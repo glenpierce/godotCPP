@@ -9,3 +9,5 @@ Then move to the root directory of the project and run the following command to 
 python -m SCons platform=windows
 ```
 
+We are here in the tutorial:
+"We're going to assign the Godot logo to this node as our texture, disable the centered property:"

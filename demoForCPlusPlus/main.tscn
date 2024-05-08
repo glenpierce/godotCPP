@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dvju0b3umtl62"]
+
+[node name="Main" type="Node2D"]
+
+[node name="GDExample" type="GDExample" parent="."]
+position = Vector2(11.1149, 2.36193)
