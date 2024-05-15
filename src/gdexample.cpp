@@ -15,7 +15,7 @@ void GDExample::_bind_methods() {
 
 GDExample::GDExample() {
     // Initialize any variables here.
-    time_passed = 0.0;
+    time_speed_product = 0.0;
     amplitude = 10.0;
     speed = 1.0;
 }
@@ -25,11 +25,11 @@ GDExample::~GDExample() {
 }
 
 void GDExample::_process(double delta) {
-    time_passed += delta * speed;
+    time_speed_product += delta * speed;
 
     Vector2 new_position = Vector2(
-            amplitude + (amplitude * sin(time_passed * 2.0)),
-            amplitude + (amplitude * cos(time_passed * 1.5))
+            amplitude + (amplitude * sin(time_speed_product * 2.0)),
+            amplitude + (amplitude * cos(time_speed_product * 1.5))
     );
 
     set_position(new_position);

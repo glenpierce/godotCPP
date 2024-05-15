@@ -9,7 +9,7 @@ namespace godot {
         GDCLASS(GDExample, Sprite2D)
 
     private:
-        double time_passed;
+        double time_speed_product;
         double amplitude;
         double speed;
 
