@@ -12,6 +12,7 @@ namespace godot {
         double time_speed_product;
         double amplitude;
         double speed;
+        double time_emit;
 
     protected:
         static void _bind_methods();
