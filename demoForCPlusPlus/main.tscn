@@ -1,6 +1,9 @@
-[gd_scene format=3 uid="uid://dvju0b3umtl62"]
+[gd_scene load_steps=2 format=3 uid="uid://dvju0b3umtl62"]
+
+[ext_resource type="Texture2D" uid="uid://daxp5a47v41qg" path="res://icon.svg" id="1_a5gui"]
 
 [node name="Main" type="Node2D"]
 
 [node name="GDExample" type="GDExample" parent="."]
-position = Vector2(11.1149, 2.36193)
+position = Vector2(15.8238, 14.4953)
+texture = ExtResource("1_a5gui")
